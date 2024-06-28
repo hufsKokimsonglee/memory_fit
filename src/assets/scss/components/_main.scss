@@ -1,40 +1,53 @@
+@import "../base/variables";
 .main {
-  .main_img {
-    height: 100vh;
-    background-image: url(../../images/main_img.png);
-    background-position: 50% 50%;
-    background-size: cover;
+  padding: 50px auto;
+  background-color: #222222;
+  h4 {
+    text-align: center;
+    font-size: 40px;
+    color: $white;
+    padding-bottom: 30px;
   }
 }
-
 .content1 {
+  // border: 1px solid $gray-d;
+  // border-radius: 8px;
   width: 1000px;
   margin: 20px auto;
   .product-list {
     gap: 30px;
     .list {
+      padding-top: 50px;
       width: calc(100% / 3 - 30px);
       height: 300px;
-      border: 1px solid $gray-a;
+      border: 1px solid $gray-d;
+      cursor: pointer;
+      // box-shadow: 1px 1px 2px 2px rgb(220, 219, 219);
       img {
-        height: 80%;
+        height: 45%;
         object-fit: cover;
-        background-color: #ffc;
+        // background-color: #ffc;
         display: block;
         margin: 0 auto;
       }
       .context {
+        // margin-top: 45px;
         .explain {
           h4 {
             font-size: 20px;
             padding-bottom: 10px;
             text-align: center;
+            color: $black;
           }
           p {
             font-size: 15px;
             text-align: center;
+            color: $black;
           }
         }
+      }
+      &:hover {
+        transform: translateY(-10px);
       }
     }
   }

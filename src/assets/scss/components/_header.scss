@@ -1,29 +1,21 @@
-.main {
-  margin: 50px auto;
-  h4 {
-    text-align: center;
-    font-size: 40px;
-  }
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #222;
-  color: #fff;
+  background-color: #222222;
+  color: $white;
 
   .header__logo {
     font-size: 1.5em;
     font-weight: bold;
-    color: #fff;
+    color: $white;
     text-decoration: none;
     transition: color 0.3s ease;
     margin-left: 40px;
 
     &:visited {
-      color: #fff; /* visited 시에도 기본 색상을 유지 */
+      color: $white; /* visited 시에도 기본 색상을 유지 */
     }
   }
 
@@ -33,11 +25,11 @@
     margin-right: 40px;
 
     .header__link {
-      color: #fff;
+      color: $white;
       font-size: 1em;
 
       &:visited {
-        color: #fff; /* visited 시에도 기본 색상을 유지 */
+        color: $white; /* visited 시에도 기본 색상을 유지 */
       }
     }
   }
