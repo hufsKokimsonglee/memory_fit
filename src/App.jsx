@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 
 import MainImg from "./components/MainImg";
+import MainAbout from "./components/MainAbout";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
           <Header/>
         </header>
         <main>
-          <MainImg />
+          {/* <MainImg /> */}
+          <MainAbout />
           <Routes>
             <Route />
           </Routes>
