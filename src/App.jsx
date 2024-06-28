@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         {/* <header></header> */}
         <main>
-          <MainImg />
+          {/* <MainImg /> */}
           <MainAbout />
           <Routes>
             <Route />

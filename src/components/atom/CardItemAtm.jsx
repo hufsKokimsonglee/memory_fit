@@ -1,14 +1,17 @@
-// import ImgAtm from "./ImgAtm";
+import ImgAtm from "./ImgAtm";
+import { Link } from "react-router-dom";
 
-const CardItemAtm = ({ titProp, txtProp }) => {
+const CardItemAtm = ({ srcProp1, altProp1, linkProp, titProp, txtProp }) => {
   return (
     <li className="list">
-      {/* <ImgAtm srcProp={srcProp1} altProp={altProp1} /> */}
+      <ImgAtm srcProp={srcProp1} altProp={altProp1} />
       <div className="context">
-        <div className="explain d-flex flex-direction-column justify-content-center algin-items-center">
-          <h4>{titProp}</h4>
-          <p>{txtProp}</p>
-        </div>
+        <Link to={linkProp}>
+          <div className="explain d-flex flex-direction-column justify-content-center algin-items-center">
+            <h4>{titProp}</h4>
+            <p>{txtProp}</p>
+          </div>
+        </Link>
       </div>
     </li>
   );

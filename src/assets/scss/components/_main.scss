@@ -16,6 +16,14 @@
       width: calc(50% - 5px);
       height: 280px;
       border: 1px solid $gray-a;
+      img {
+        // width: 100%;
+        height: 90%;
+        object-fit: cover;
+        background-color: #ffc;
+        display: block;
+        margin: 0 auto;
+      }
       .context {
         .explain {
           h4 {
