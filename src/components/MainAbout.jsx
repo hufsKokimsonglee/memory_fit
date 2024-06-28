@@ -10,8 +10,18 @@ import img3 from "../assets/images/class3.gif";
 const MainAbout = () => {
   const navigate = useNavigate();
   const menuLists = [
-    [img1, "fan", "손 부채운동", "주먹을 쥐었다 피는 것을 반복하는 운동"],
-    [img2, "clap", "손끝 치기운동", "손끝을 서로 치는 운동"],
+    [
+      img1,
+      "http://127.0.0.1:5000/my_model/fist_open",
+      "손 부채운동",
+      "주먹을 쥐었다 피는 것을 반복하는 운동",
+    ],
+    [
+      img2,
+      "http://127.0.0.1:5000/my_model/count",
+      "손끝 치기운동",
+      "손끝을 서로 치는 운동",
+    ],
     [img3, "walk", "걷기운동", "다리를 들어올리며 걷는 운동"],
     ["", "", "", "Comming Soon"],
     ["", "", "", "Comming Soon"],

@@ -11,16 +11,16 @@ const CardItemAtm = ({
 }) => {
   return (
     <li className="list" onClick={onClick} style={{ backgroundColor: "#fff" }}>
-      <Link to={linkProp}>
+      <a href={linkProp}>
         <ImgAtm srcProp={srcProp1} altProp={altProp1} />
-      </Link>
+      </a>
       <div className="context">
-        <Link to={`/detail/${linkProp}`}>
+        <a href={linkProp}>
           <div className="explain d-flex flex-direction-column justify-content-center">
             <h4>{titProp}</h4>
             <p>{txtProp}</p>
           </div>
-        </Link>
+        </a>
       </div>
     </li>
   );
