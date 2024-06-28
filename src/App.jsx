@@ -2,7 +2,7 @@ import "./assets/scss/app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 
-// import MainImg from "./components/MainImg";
+import MainText from "./components/MainText";
 import MainAbout from "./components/MainAbout";
 
 function App() {
@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
-          <Header/>
+          <Header />
         </header>
         <main>
-          {/* <MainImg /> */}
+          <MainText />
           <MainAbout />
           <Routes>
             <Route />

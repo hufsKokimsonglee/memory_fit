@@ -9,6 +9,8 @@ const Header = () => {
 
   const resBtnClick = () => {
     setDarkActive(!darkActive);
+    if (!darkActive) document.body.style.overflowY = "hidden";
+    else document.body.style.overflowY = "hidden";
   };
 
   return (
