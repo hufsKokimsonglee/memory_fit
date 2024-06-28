@@ -1,5 +1,5 @@
-const ImgAtm = ({ srcProp, altProp }) => {
-  return <img src={srcProp} alt={altProp} />;
+const ImgAtm = ({ srcProp, altProp, ...props }) => {
+  return <img {...props} src={srcProp} alt={altProp} />;
 };
 
 export default ImgAtm;
