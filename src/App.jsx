@@ -2,7 +2,7 @@ import "./assets/scss/app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 
-import MainImg from "./components/MainImg";
+// import MainImg from "./components/MainImg";
 import MainAbout from "./components/MainAbout";
 
 function App() {
