@@ -1,12 +1,15 @@
 import "./assets/scss/app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import MainImg from "./components/MainImg";
+
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         {/* <header></header> */}
         <main>
+          <MainImg />
           <Routes>
             <Route />
           </Routes>
