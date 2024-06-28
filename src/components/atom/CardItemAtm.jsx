@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 
 const CardItemAtm = ({ srcProp1, altProp1, linkProp, titProp, txtProp, onClick }) => {
   return (
-    <li className="list" onClick={onClick}>
-      <ImgAtm srcProp={srcProp1} altProp={altProp1} />
+    <li className="list">
+      <Link to={linkProp}>
+        <ImgAtm srcProp={srcProp1} altProp={altProp1} />
+      </Link>
       <div className="context">
         <Link to={`/detail/${linkProp}`}>
           <div className="explain d-flex flex-direction-column justify-content-center align-items-center">

@@ -1,7 +1,7 @@
 const MainImg = () => {
   return (
     <div className="main">
-      <div className="main_img"></div>
+      <h4>치매 예방에는 운동이 답이다!</h4>
     </div>
   );
 };
