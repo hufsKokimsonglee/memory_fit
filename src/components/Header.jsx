@@ -1,17 +1,18 @@
-import '../assets/scss/app.scss';
+import React from 'react';
+import './Header.scss';
 
-export default function Header() {
-    return(
-          <div>
-            <div>
-              <h1>온리유</h1>
-            </div>
-            <nav>
-              <ul>
-                <li>홈 화면</li>
-                <li>운동 수업</li>
-              </ul>
-            </nav>
-          </div>
-    );
-}
+const Header = () => {
+  return (
+    <header className="header">
+      <a href='/' className="header__logo">Onlu</a>
+      <nav className="header__nav">
+        <a href="/" className="header__link">Home</a>
+        <a href="#about" className="header__link">About</a>
+        <a href="#services" className="header__link">Services</a>
+        <a href="#contact" className="header__link">Contact</a>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;

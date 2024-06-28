@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #222;
+  color: #fff;
+
+  &__logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:visited {
+      color: #fff; /* visited 시에도 기본 색상을 유지 */
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: 20px;
+
+    .header__link {
+      color: #fff;
+      font-size: 1em;
+
+      &:visited {
+        color: #fff; /* visited 시에도 기본 색상을 유지 */
+      }
+    }
+  }
+}
