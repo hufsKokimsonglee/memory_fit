@@ -6,3 +6,29 @@
     background-size: cover;
   }
 }
+
+.content1 {
+  width: 1200px;
+  margin: 20px auto;
+  .product-list {
+    gap: 10px;
+    .list {
+      width: calc(50% - 5px);
+      height: 280px;
+      border: 1px solid $gray-a;
+      .context {
+        .explain {
+          h4 {
+            font-size: 20px;
+            padding-bottom: 10px;
+            text-align: center;
+          }
+          p {
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
