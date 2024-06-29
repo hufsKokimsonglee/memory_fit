@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import * as tmPose from "@teachablemachine/pose";
 
 const PoseModel = () => {
-  const URL = "http://127.0.0.1:5000/my_model/";
+  const URL = "http://127.0.0.1:5000/";
   const [model, setModel] = useState(null);
   const [maxPredictions, setMaxPredictions] = useState(0);
   const webcamRef = useRef(null);

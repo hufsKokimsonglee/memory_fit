@@ -18,11 +18,11 @@ const MainAbout = () => {
     ],
     [
       img2,
-      "http://127.0.0.1:5000/my_model/count",
+      "http://127.0.0.1:5051/apart_touch",
       "손끝 치기운동",
       "손끝을 서로 치는 운동",
     ],
-    [img3, "walk", "걷기운동", "다리를 들어올리며 걷는 운동"],
+    [img3, "http://memoryfit.store", "걷기운동", "다리를 들어올리며 걷는 운동"],
     ["", "", "", "Comming Soon"],
     ["", "", "", "Comming Soon"],
   ];
