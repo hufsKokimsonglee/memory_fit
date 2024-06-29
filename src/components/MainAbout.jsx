@@ -12,7 +12,7 @@ const MainAbout = () => {
   const menuLists = [
     [
       img1,
-      "http://127.0.0.1:5000/my_model/fist_open",
+      "http://127.0.0.1:5000/fist_open",
       "손 부채운동",
       "주먹을 쥐었다 피는 것을 반복하는 운동",
     ],
